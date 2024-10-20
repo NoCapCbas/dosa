@@ -1,4 +1,5 @@
-# Coding practice
+# Coding practice core skills
+
 ## Select a programming langauge and stick to it, master it
     "A master of all is a master of none."
 
@@ -29,3 +30,15 @@
 ## Dynamic Programming
 - 0/1 Knapsack
 - Unbounded Knapsack
+
+## Desigm Patterns
+- Factory Method Pattern 
+- Singleton Pattern
+- Builder Pattern
+- Prototype Pattern
+- Adapter Pattern
+- Decorator Pattern
+- Facade Pattern
+- Strategy Pattern
+- Observer Pattern
+- State Pattern
