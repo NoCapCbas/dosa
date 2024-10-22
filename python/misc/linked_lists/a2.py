@@ -1,4 +1,17 @@
+"""
+Explore:
+    
+Brainstorm:
+    - link last node with head node
+        - requires looping through linked list
+        time complexity would be O(n)
+        - linking tail to head, and storing constant variables
+        space complexity O(1)
 
+Plan:
+
+
+"""
 class Node:
     def __init__(self, value, next_node=None):
         self.value = value
@@ -11,15 +24,6 @@ class Node:
 def create_cycle(head:Node):
     """
     Link the last node to the head node, creating a cycle.
-    Example:
-    input: 1 -> 2 -> 3 -> None
-    output:
-    1 -> 2
-    ^   
-      \  |
-        3
-    Verify:
-        The test should check for RecursionError
     """
     if not head:
         return
@@ -29,14 +33,13 @@ def create_cycle(head:Node):
 
         current = current.next
     current.next = head
-    print(head)
-    return 
+    return head
 
 
 LL1 = Node(1, Node(2, Node(3)))
 
 try:
-    create_cycle(LL1) 
+    print(create_cycle(LL1))
     print(False)
 except RecursionError:
     print(True)

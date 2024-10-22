@@ -16,3 +16,24 @@ Output: 3 -> 3 -> 3 -> 3 -> 3 -> 3 -> None
 
 
 
+## Problem 2:
+Create a linked list cycle, this should cause a recursion error when done correctly.
+
+### Example 1:
+input: 1 -> 2 -> 3 -> None
+output:
+1 -> 2
+^   
+  \  |
+    3
+Verify:
+    The test should check for RecursionError
+
+## Problem 3:
+Multiply the value in each node by the value in the next node. 
+The tail node has no next node so multiply it by itself
+
+### Example 1:
+input: 1 -> 2 -> 3 -> 4 -> None 
+output: 2 -> 6 -> 12 -> 16 -> None 
+
