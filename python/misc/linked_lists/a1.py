@@ -1,7 +1,8 @@
 '''
+
 Explore:
 - iteratively
-- recursively
+- recursively?
 
 Brainstorm:
     Approach 1:
@@ -9,9 +10,11 @@ Brainstorm:
     Time: O(n)
     Space: O(n)
 
+Plan:
+
 
 '''
-
+# Implement
 class Node():
     def __init__(self, value, next_node = None):
         self.value = value
@@ -34,7 +37,7 @@ def approach1(x, y):
         prev_node = node
     return node
         
-
+# Verify
 print(Node(2, Node(2, Node(2))))
 print(approach1(3, 2))
 
