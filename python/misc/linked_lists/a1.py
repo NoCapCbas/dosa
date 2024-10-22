@@ -6,6 +6,10 @@ Explore:
 Brainstorm:
     Approach 1:
         iterate x times and link each node     
+    Time: O(n)
+    Space: O(n)
+
+
 '''
 
 class Node():
