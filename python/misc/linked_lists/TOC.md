@@ -37,3 +37,11 @@ The tail node has no next node so multiply it by itself
 input: 1 -> 2 -> 3 -> 4 -> None 
 output: 2 -> 6 -> 12 -> 16 -> None 
 
+## Problem 4:
+Given a linked list, return the number of values that occur twice.
+
+### Example 1:
+head = 1 -> 2 -> 2 -> 3 -> 3 -> None
+numPairs(head) == 1
+
+
