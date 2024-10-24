@@ -33,7 +33,7 @@ Input: [3, 4, -5, 0]
 Output: 4
 
 ## Problem 3:
-Sum all the elements in an array (
+Sum all the elements in an array
 
 ### Example 1:
 input: [3,1,2,3,1]
