@@ -1,5 +1,8 @@
 # Coding practice core skills
 
+a.py files are to practice the problem
+s.py files are solutions, with as much detail as possible
+
 ## Select a programming langauge and stick to it, master it
     "A master of all is a master of none."
 

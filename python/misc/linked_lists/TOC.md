@@ -44,4 +44,20 @@ Given a linked list, return the number of values that occur twice.
 head = 1 -> 2 -> 2 -> 3 -> 3 -> None
 numPairs(head) == 1
 
+## Problem 5:
+Count elements in a linked list iteratively
+
+### Example 1:
+head = 1 -> 2 -> 3 -> None
+num_sum(head) == 6
+
+## Problem 6:
+Find max element in a linked list
+
+### Example 1:
+input: 1 -> 2 -> 3 -> None
+output: 3
+
+
+
 
