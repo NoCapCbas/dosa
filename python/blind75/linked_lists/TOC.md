@@ -1,7 +1,7 @@
 Use the Engineering method to solve all problems.
 
 a.py files are to practice the problem
-s.py files are solutions, with as much detail as possible
+s.py files are solutions
 
 
 ## Problem 1: Reverse Linked List
@@ -41,19 +41,19 @@ Input: list1 = [], list2 = []
 Output: []
 
 
-## Problem 2: Reorder List
+## Problem 4: Reorder List
 
 ### Example 1:
 
 
 
-## Problem 3: Remove Nth Node From End  of List
+## Problem 5: Remove Nth Node From End  of List
 
 ### Example 1:
 
 
 
-## Problem 4: Merge K Sorted List
+## Problem 6: Merge K Sorted List
 
 ### Example 1:
 
