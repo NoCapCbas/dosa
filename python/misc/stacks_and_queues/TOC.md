@@ -40,3 +40,21 @@ Why use a Queue?
 A queue follows the First-In-First-Out (FIFO) principle, which ensures that documents are printed in the same order they were added.
 In contrast, a stack follows the Last-In-First-Out (LIFO) principle, which would result in documents being printed in reverse order.
 This problem uses a queue because documents should be processed in the order they were submitted.
+
+## Problem 2: Valid Parentheses
+Given a string containg the only the following characters:
+'{}[]()'
+Determine if the input string is valid.
+Open brackets must be closed and in the correct order.
+### Example 1:
+input: "()" 
+output: True
+### Example 2:
+input: "()[]{}"
+output: True
+### Example 3:
+input: "(]" 
+output: False
+### Example 4:
+input: "([)]"
+output: False
