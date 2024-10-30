@@ -58,3 +58,9 @@ output: False
 ### Example 4:
 input: "([)]"
 output: False
+
+## Problem 3: Remove outermost Parentheses
+Given a string remove the outermost Parentheses
+### Example 1:
+input: "(()())"
+output: "()()"
