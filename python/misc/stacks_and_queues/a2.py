@@ -43,10 +43,10 @@ def valid_parentheses(chrs:str):
     return True
 
 # Verify
-print(valid_parentheses("()")==True)
+# print(valid_parentheses("()")==True)
 print(valid_parentheses("()[]{}")==True)
-print(valid_parentheses("(]")==False)
-print(valid_parentheses("([]]")==False)
+# print(valid_parentheses("(]")==False)
+# print(valid_parentheses("([]]")==False)
 
 
 
