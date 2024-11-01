@@ -1,10 +1,24 @@
 # Coding practice core skills
 
+## Select a programming langauge and stick to it, master it
+    "A master of all is a master of none."
+
+## Engineering Method
+- Explore
+- Brainstorm
+- Plan
+- Implement
+- Verify
+
+## Problem Solving Template
+- Where do we start?
+- How do we move? and how many places do we move?
+- What are the boundries?
+- What is the action?
+
 a.py files are to practice the problem
 s.py files are solutions, with as much detail as possible
 
-## Select a programming langauge and stick to it, master it
-    "A master of all is a master of none."
 
 ## Data Structures
 - Dynamic Array (Resizable Array)
