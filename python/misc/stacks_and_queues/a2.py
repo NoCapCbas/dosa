@@ -30,15 +30,15 @@ def valid_parentheses(chrs:str):
 
     q = queue.Queue() 
     for idx in range(len(chrs)):
-        print(idx)
-        if idx <= (len(chrs)//2)-1:
-            q.put(chrs[idx])
-        elif idx >= (len(chrs)//2)-1:
-            value = map[q.get(timeout=5)]
+        bracket = chrs[idx]
 
-            print(chrs[idx], value)
-            if value != chrs[idx]:
+        if bracket in map:
+            q.put(map[bracket])
+        else:
+            bracket_match = q.get()
+            if bracket != bracket_match:
                 return False
+            
 
     return True
 
