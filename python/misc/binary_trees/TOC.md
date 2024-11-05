@@ -11,3 +11,18 @@ Given a binary tree:
               / \
              4   5
 // returns 7
+
+## Problem 2:
+Univalued Binary Tree
+A binary tree is uni-valued if every node in the tree has the same value.
+
+Given the root of a binary tree, return true if the given tree is uni-valued, or false otherwise.
+### Example 2:
+
+Given a binary tree:
+                 1
+                / \
+               1   1
+              / \
+             1   1
+// returns True
