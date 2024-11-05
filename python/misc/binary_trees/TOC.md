@@ -24,4 +24,16 @@ Given a binary tree:
              4   3
 // returns 3
 
+## Problem 3:
+    Find Height of a Binary Tree
+
+### Example 3:
+Given a binary tree:
+                 1
+                / \
+               7   3
+              / \
+             4   5
+// returns 2
+
     
