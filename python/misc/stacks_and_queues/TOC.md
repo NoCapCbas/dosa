@@ -64,3 +64,6 @@ Given a string remove the outermost Parentheses
 ### Example 1:
 input: "(()())"
 output: "()()"
+### Example 2:
+Input: "(()())(())(()(()))"
+Output: "()()()()(())"
