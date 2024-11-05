@@ -67,3 +67,12 @@ output: "()()"
 ### Example 2:
 Input: "(()())(())(()(()))"
 Output: "()()()()(())"
+
+## Problem 4: Backspace String Compare
+Given a string remove the outermost Parentheses
+### Example 1:
+input: "(()())"
+output: "()()"
+### Example 2:
+Input: "(()())(())(()(()))"
+Output: "()()()()(())"
