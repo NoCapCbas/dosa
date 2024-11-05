@@ -69,10 +69,25 @@ Input: "(()())(())(()(()))"
 Output: "()()()()(())"
 
 ## Problem 4: Backspace String Compare
-Given a string remove the outermost Parentheses
+Given two strings s and t, return true if they are equal when both are typed into empty text editors. '#' means a backspace character.
+
+
 ### Example 1:
-input: "(()())"
-output: "()()"
+
+Input: s = "ab#c", t = "ad#c"
+Output: true
+Explanation: Both s and t become "ac".
+
 ### Example 2:
-Input: "(()())(())(()(()))"
-Output: "()()()()(())"
+
+Input: s = "ab##", t = "c#d#"
+Output: true
+Explanation: Both s and t become "".
+
+### Example 3:
+
+Input: s = "a#c", t = "b"
+Output: false
+Explanation: s becomes "c" while t becomes "b".
+
+ 
