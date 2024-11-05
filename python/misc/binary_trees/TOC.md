@@ -11,3 +11,17 @@ Given a binary tree:
               / \
              4   5
 // returns 7
+
+## Problem 2:
+    Find Most Frequent Node Value
+
+### Example 2:
+Given a binary tree:
+                 1
+                / \
+               7   3
+              / \
+             4   3
+// returns 3
+
+    

@@ -13,9 +13,9 @@ Explore:
     - where do we start?
         - start at the head
     - how do we move?
-        - recurse through left and righ nodes
+        - recurse through left and right nodes
     - what are the boundaries?
-        - when left or right is none
+        - when node is none
     - what is the action?
         - find the maximum value, compare the returned value to 
         set maximum
@@ -39,20 +39,14 @@ class TreeNode:
         self.right = right
 
 def tree_max(node:TreeNode) -> int:
+    # recursive
 
-    def helper(node:TreeNode) -> int:
-        if not node:
-            return float('-inf')
+    if not node:
+        return float('-inf')
 
-        left_max = helper(node.left)
-        right_max = helper(node.right)
+    tree_max_result = max(tree_max(node.left), tree_max(node.right), node.value)
+    return tree_max_result
 
-        true_max = max(left_max, right_max, node.value)
-        # print('>', true_max)
-        return true_max
-
-    max_val = helper(node)
-    return max_val
 
 # Test Cases
 print(tree_max(None), float("-inf"))
