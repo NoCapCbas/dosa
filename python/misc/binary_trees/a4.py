@@ -1,47 +1,53 @@
 """
-Find Height of a Binary Tree
+Find Only Children
 
 Given a binary tree:
                  1
                 / \
                7   3
-              / \
-             4   5
-// returns 2
+              / \   \
+             4   5   4
 
+returns [3]
 
 Explore:
     - where do we start?
         - root node
     - how do we move?
-        - recursively, returning level
+        - recursively, returning only childs
     - what are the boundaries?
         - node is None
     - what is the action?
-        - increment each level
+        return only list of parents nodes w/ only one child
 
 Brainstorm:
     - Approach 1:
-        base case, return 0
-        else return 1
+        base case, return empty list
+
+        check left, check right
+        if only left or only right exists 
+            return current node value
 """
+
 class TreeNode:
     def __init__(self, value=0, left=None, right=None):
         self.value = value
         self.left = left
         self.right = right
 
-def tree_height(node:TreeNode) -> int:
-    # base case return 0 
+def find_only_children(node:TreeNode) -> list[int]:
+    # base case return []
     if node is None:
-        return -1
+        return None
 
-    # recurse passing node.left and node.right separately
-    # store returned val in left_val, right_val, return the max between the two
-    left_val = tree_height(node.left)
-    right_val = tree_height(node.right)
-    max_val = max(left_val, right_val)
-    return max_val + 1
+    left_child = find_only_children(node.left) 
+    right_child = find_only_children(node.right)
+    if left_child is None and right_child is not None:
+        return right_child + [node.value]
+    elif right_child is None and left_child is not None:
+        return left_child + [node.value]
+
+    return left_child + right_child
 
     
     

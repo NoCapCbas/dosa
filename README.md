@@ -62,7 +62,5 @@ s.py files are solutions, with as much detail as possible
 
 
 Problems to revise:
-- Backspace String Compare
-https://leetcode.com/problems/backspace-string-compare/description/
 - Minimum Number of Swaps to Make the String Balanced
 https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/description/

@@ -13,6 +13,21 @@ Given a binary tree:
 // returns 7
 
 ## Problem 2:
+<<<<<<< HEAD
+Univalued Binary Tree
+A binary tree is uni-valued if every node in the tree has the same value.
+
+Given the root of a binary tree, return true if the given tree is uni-valued, or false otherwise.
+### Example 2:
+
+Given a binary tree:
+                 1
+                / \
+               1   1
+              / \
+             1   1
+// returns True
+=======
     Find Most Frequent Node Value
 
 ### Example 2:
@@ -36,4 +51,17 @@ Given a binary tree:
              4   5
 // returns 2
 
-    
+## Problem 4: Find Only Children
+Given a binary tree find all nodes that have only one child. Return an array of node values representing each single-child parent in any order.
+
+
+### Example 4:
+Given a binary tree:
+                 1
+                / \
+               7   3
+              / \   \
+             4   5   4
+
+// returns [3]
+
