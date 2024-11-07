@@ -51,4 +51,17 @@ Given a binary tree:
              4   5
 // returns 2
 
-    
+## Problem 4: Find Only Children
+Given a binary tree find all nodes that have only one child. Return an array of node values representing each single-child parent in any order.
+
+
+### Example 4:
+Given a binary tree:
+                 1
+                / \
+               7   3
+              / \   \
+             4   5   4
+
+// returns [3]
+
