@@ -52,4 +52,3 @@ Given a binary tree:
 // returns 2
 
     
->>>>>>> origin/main
