@@ -47,10 +47,7 @@ def find_only_children(node:TreeNode) -> list[int]:
     elif right_child is None and left_child is not None:
         return left_child + [node.value]
 
-    return left_child + right_child
-
-    
-    
+    return left_child + right_child   
 
 # Verify Test Cases
 print(tree_height(None), -1) # -1
