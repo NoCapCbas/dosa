@@ -1,5 +1,4 @@
 """
-<<<<<<< HEAD
 Univalued Binary Tree
 A binary tree is uni-valued if every node in the tree has the same value.
 
@@ -64,4 +63,3 @@ print(is_univalue(TreeNode(1, TreeNode(2), TreeNode(3))), False) # 3
 print(is_univalue(TreeNode(2, TreeNode(29, TreeNode(26)), TreeNode(4, None, TreeNode(2, TreeNode(9))))), False)
 print(is_univalue(TreeNode(1)), True)
 print(is_univalue(TreeNode(1, TreeNode(1, TreeNode(1)), TreeNode(1, None, TreeNode(1, TreeNode(1))))), True)
->>>>>>> origin/main

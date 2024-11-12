@@ -62,4 +62,26 @@ Given a binary tree:
              4   3
 // returns 3
 
+## Example 6: Algo: Same Tree
+Given the roots of two binary trees p and q, write a function to check if they are the same or not.
+### Example 1:
+Given a binary tree:
+                 1
+                / \
+               7   3
+                 1
+                / \
+               6   3
+
+// returns False
+
+### Example 2:
+Given a binary tree:
+                 1
+                / \
+               3   3
+                 1
+                / \
+               3   3
+// returns True
 
