@@ -44,7 +44,7 @@ def remove_outermost_parentheses(chrs:str) -> str:
         remove_idx = remove_q.get()
         print(remove_idx)
         chrs_list.pop(remove_idx)
-    result = chrs_list.join('')
+    result = chrs_list.jon('')
             
     return result
 

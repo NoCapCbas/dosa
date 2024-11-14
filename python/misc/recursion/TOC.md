@@ -62,3 +62,10 @@ Shift the elements in an array by 1 and move the last element to the first
 input: [1,2,3,4,5]
 output: [5,1,2,3,4]
 
+## Problem 7:
+We'll say that a "skipped pair" in a string is two instances of a char separated by a char. So "AxA" the A's make a pair. Pair's can overlap, so "AxAxA" contains 3 skipped pairs -- 2 for A and 1 for x. Compute the number of skipped pairs in the given string using Recursion (no loops).
+### Example 1:
+countSkippedPairs("axa") == 1
+countSkippedPairs("axax") == 2
+countSkippedPairs("aaa") == 1
+
