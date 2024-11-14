@@ -69,3 +69,6 @@ countSkippedPairs("axa") == 1
 countSkippedPairs("axax") == 2
 countSkippedPairs("aaa") == 1
 
+
+### Problem 8:
+We have a number of bunnies, each with two big floppy ears. We want to compute the total number of ears across all the bunnies recursively, without loops or multiplication.
