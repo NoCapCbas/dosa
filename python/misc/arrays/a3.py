@@ -19,7 +19,7 @@ Brainstorm:
 
 def sum_nested_list(arr:list):
     total = 0
-    for item in array:
+    for item in arr:
         if type(item) is int:
             total += item
         else:
@@ -28,7 +28,15 @@ def sum_nested_list(arr:list):
 
 # verify
 
-sum_nested_list([1, 2, 3]) == 6
-sum_nested_list([1, [1, 2, 3], 3]) == 10
-sum_nested_list([1, [1, [1, [1, [1]]]]]) == 5
+print(sum_nested_list([1, 2, 3]) == 6)
+print(sum_nested_list([1, [1, 2, 3], 3]) == 10)
+print(sum_nested_list([1, [1, [1, [1, [1]]]]]) == 5)
+
+"""
+Conclusion:
+    Time Complexity:
+        o(n), due to looping through each item and nested item
+    Space Complexity:
+        o(n), due to call stack of each nested array
+"""
 
