@@ -212,6 +212,7 @@ def find_max_element_in_tree(node):
     right_result = find_max_element_in_tree(node.right)
 
     return max(left_result, right_result, node.value)
+
 def test_find_max_element_in_tree():
     tree = TreeNode(1, TreeNode(2), TreeNode(3))
     print(find_max_element_in_tree(tree) == 3)
@@ -220,7 +221,89 @@ def test_find_max_element_in_tree():
     tree = TreeNode(1, TreeNode(2), TreeNode(3, TreeNode(4)))
     print(find_max_element_in_tree(tree) == float('-inf'))
 
+def find_height_of_binary_tree(node):
+    if node is None:
+        return 0
+
+    left_height = find_height_of_binary_tree(node.left)
+    right_height = find_height_of_binary_tree(node.right)
+
+    return max(left_height, right_height) + 1 
+
+def test_find_height_of_binary_tree():
+    tree = TreeNode(1, TreeNode(2), TreeNode(3))
+    print(find_height_of_binary_tree(tree) == 2)
+    tree = None 
+    print(find_height_of_binary_tree(tree) == 0)
+    tree = TreeNode(1, TreeNode(2), TreeNode(3, TreeNode(4)))
+    print(find_height_of_binary_tree(tree) == 3)
+
+def fib3(n):
+    if n <= 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fib(n-1) + fib(n-2)
+
+def test_fib3():
+    # Test cases
+    print(f"fib(0) == {fib3(0)}")  # Base case, should return 0
+    print(f"fib(1) == {fib3(1)}")  # Base case, should return 1
+    print(f"fib(2) == {fib3(2)}")  # Should return 1
+    print(f"fib(3) == {fib3(3)}")  # Should return 2
+    print(f"fib(5) == {fib3(5)}")  # Should return 5
+    print(f"fib(10) == {fib3(10)}")  # Should return 55
+    print(f"fib(15) == {fib3(15)}")  # Should return 610
+
+def reverse_linked_list3(node):
+    curr = node
+    prev = None
+    while curr:
+        next = curr.next
+        curr.next = prev
+        prev = curr
+        curr.next = next
+    return prev
+
+def test_reverse_linked_list3():
+    ll1 = ListNode(1, ListNode(2, ListNode(3)))
+    print(reverse_linked(ll1))
+
+def remove_target_linked_list3(node):
+    sentinel = ListNode('x') 
+    sentinel.next = node
+    curr = sentinel
+    while curr is not None:
+        if curr.next.value == target:
+            curr.next = curr.next.next
+        else:
+            curr = curr.next
+    return sentinel.next
+
+def test_remove_target_from_linked_list_3():
+    ll1 = ListNode(1, ListNode(2, ListNode(3)))
+    print(remove_target_from_linked_list(ll1, 3))
+    ll1 = ListNode(1, ListNode(2, ListNode(3)))
+    print(remove_target_from_linked_list(ll1, 2))
+    ll1 = None 
+    print(remove_target_from_linked_list(ll1, 3))
+
+def merge_sort():
+    pass
+def insertion_sort():
+    pass
+def seletion_sort():
+    pass
+def bubble_sort():
+    pass
+
+def test_sort():
+    test = [1,3,2]
+    test = [4,2,9]
+    test = [8,2,4]
+
 
 
 if __name__ == "__main__":
-    test_count_elements_in_binary_tree()
+    test_remove_target_from_linked_list_3()
