@@ -72,3 +72,13 @@ countSkippedPairs("aaa") == 1
 
 ### Problem 8:
 We have a number of bunnies, each with two big floppy ears. We want to compute the total number of ears across all the bunnies recursively, without loops or multiplication.
+
+### Example 1:
+bunnyEars(3) == 6
+bunnyEars(5) == 10
+
+## Problem 9:
+Solve Fibonacci using recursion.
+
+### Example 1:
+
